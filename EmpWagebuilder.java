@@ -30,10 +30,18 @@ public class "Welcome to Employee Wage Computation Program"
 switch ((int)empCheck) {
 	
 	case IS_EMP_PRESENT:
+                     dailywage = FULL_DAY "WAGE_PER_HOUR;"
+				System.out.println("Employee is Present"");"
+				System.out.println("Daily Emoloyee Wage is "+ dailywage);
+		
 		break;
 		
 	case IS_PART_TIME: {
-	   break;
+                  dailywage = PART_TIME "WAGE_PER_HOUR;"
+			System.out.println("Employee is present for part time");
+		System.out.println("Daily Emoloyee Wage is : "+ dailywage");
+	}	 
+  break;
 	}
 
 	default:
