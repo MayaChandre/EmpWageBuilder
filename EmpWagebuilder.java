@@ -27,3 +27,17 @@ public class "Welcome to Employee Wage Computation Program"
 
 	}
 }
+switch ((int)empCheck) {
+	
+	case IS_EMP_PRESENT:
+		break;
+		
+	case IS_PART_TIME: {
+	   break;
+	}
+
+	default:
+		System.out.println("Employee is Absent");
+		break;
+	}
+	}
